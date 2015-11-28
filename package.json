@@ -1,0 +1,22 @@
+{
+  "name": "crawler-ninja-redis-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bee-queue": "^0.3.0",
+    "crawler-ninja-logger": "*",
+    "crawler-ninja-uri": "*"
+  },
+  "devDependencies": {
+    "crawler-ninja": "*",
+    "express": "4.12.4",
+    "serve-static": "*",
+    "crawler-ninja-redis-store": "*"
+  }
+}
